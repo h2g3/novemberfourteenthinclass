@@ -1,0 +1,35 @@
+/* style.css */
+
+body{ 
+    font-size:30px;
+}
+
+#fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:#ccc;
+}
+
+.wrapper{
+    width:600px;
+    padding:20px;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+#relative{
+    postion:relative;
+    background:blue;
+    height:200px;
+    text-align: center;
+}
+
+#absolute{
+    position:absolute;
+    height: 100px;
+    width:200px;
+    background-color: red;
+    right:-30px;
+    bottom:0px;
+}
